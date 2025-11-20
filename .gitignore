@@ -1,29 +1,61 @@
-# Rust build output
+#########################
+#   Rust build output   #
+#########################
+
 target/
 **/target/
+# Cargo adds this automatically
+/target
 
-# Cargo files
+#########################
+#     Cargo files       #
+#########################
+
 .cargo/
+Cargo.lock
 
+#########################
 # Rust compiler artifacts
+#########################
+
 *.rs.bk
 *.rlib
 *.d
 
-# IDE/editor specific files
+#########################
+#   Input files (global)
+#########################
+
+inputs/
+**/inputs/
+/inputs
+
+#########################
+#     C# / .NET stuff   #
+#########################
+
+bin/
+obj/
+*.user
+*.suo
+*.csproj.user
+*.vs/
+*.dll
+*.exe
+
+#########################
+#     IDE/editor files  #
+#########################
+
 .idea/
 .vscode/
 *.swp
 *~
 .DS_Store
 
-# macOS specific files
+#########################
+#   macOS specific      #
+#########################
+
 .AppleDouble
 .LSOverride
-
-
-# Added by cargo
-
-/target
-
-/input
