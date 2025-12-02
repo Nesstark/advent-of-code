@@ -42,6 +42,7 @@ obj/
 *.vs/
 *.dll
 *.exe
+.sln
 
 #########################
 #     IDE/editor files  #

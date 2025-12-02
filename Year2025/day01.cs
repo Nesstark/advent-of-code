@@ -1,8 +1,9 @@
 using System;
 using System.IO;
-class Program
+
+class Day01
 {
-    static void Main()
+    static void Mainday01()
     {
         string inputPath = Path.GetFullPath("inputs/day01.txt");
         string[] lines = File.ReadAllLines(inputPath);
