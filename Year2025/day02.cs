@@ -1,9 +1,9 @@
 using System;
 using System.IO;
 
-class Program
+class Day02
 {
-    static void Main(string[] args)
+    static void MainDay02(string[] args)
     {
         string inputPath = Path.GetFullPath("inputs/day02.txt");
         string content = File.ReadAllText(inputPath).Trim();
