@@ -1,12 +1,12 @@
 using System;
 using System.IO;
 
-class Program
+class Day04
 {
     static readonly int[] DX = { -1, -1, -1, 0, 0, 1, 1, 1 };
     static readonly int[] DY = { -1,  0,  1, -1, 1, -1, 0, 1 };
 
-    static void Main(string[] args)
+    static void MainDay04(string[] args)
     {
         string inputPath = Path.GetFullPath("inputs/day04.txt");
 
