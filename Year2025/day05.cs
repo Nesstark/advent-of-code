@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-class Program
+class Day05
 {
     struct Range
     {
@@ -11,7 +11,7 @@ class Program
         public Range(long start, long end) { Start = start; End = end; }
     }
 
-    static void Main()
+    static void MainDay05()
     {
         string inputPath = Path.GetFullPath("inputs/day05.txt");
 
