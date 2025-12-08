@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-class Program
+class Day06
 {
-    static void Main(string[] args)
+    static void MainDay06(string[] args)
     {
         string[] lines = File.ReadAllLines("inputs/day06.txt");
         
