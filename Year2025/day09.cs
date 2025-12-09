@@ -18,13 +18,9 @@ class Program
 
     static void Main()
     {
-        // Read all lines from the input file
         string[] lines = File.ReadAllLines("inputs/day09.txt");
-
-        // Store all points
         List<Point> points = new List<Point>();
 
-        // Parse each line like "98139,50134"
         foreach (string line in lines)
         {
             string[] parts = line.Split(',');
@@ -35,7 +31,6 @@ class Program
 
         long maxArea = 0;
 
-        // Compare every point with every other point
         for (int i = 0; i < points.Count; i++)
         {
             for (int j = i + 1; j < points.Count; j++)
