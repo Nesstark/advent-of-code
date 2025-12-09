@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-class Program
+class Day08
 {
     struct Point
     {
@@ -81,7 +81,7 @@ class Program
         }
     }
 
-    static void Main()
+    static void MainDay08()
     {
         string[] lines = File.ReadAllLines("inputs/day08.txt");
         List<Point> points = new List<Point>();
