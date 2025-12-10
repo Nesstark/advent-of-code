@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-class Program
+class day09
 {
     struct Point
     {
@@ -16,7 +16,7 @@ class Program
         }
     }
 
-    static void Main()
+    static void MainDay09()
     {
         string[] lines = File.ReadAllLines("inputs/day09.txt");
         List<Point> points = new List<Point>();
